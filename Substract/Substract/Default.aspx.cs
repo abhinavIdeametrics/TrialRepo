@@ -21,7 +21,6 @@ namespace Substract
             Substaction sub = new Substaction();
             x = double.Parse(tb1.Text);
             y = double.Parse(tb2.Text);
-            throw new Exception();
             if(x>y)
 
                 result.Text = sub.Substract(x, y).ToString();
